@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "My new Decentraland project",
   "scripts": {
-    "start": "dcl start",
     "CI": "true dcl start -p ${PORT:=8000}",
     "build": "build-ecs",
     "watch": "build-ecs --watch",
